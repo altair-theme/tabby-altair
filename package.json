@@ -1,0 +1,45 @@
+{
+  "name": "terminus-altair",
+  "version": "0.0.8",
+  "description": "Altair is a elegant, customizable and has vivid colors just for Terminus",
+  "keywords": [
+    "terminus-plugin"
+  ],
+  "main": "dist/index.js",
+  "repository": "vsailev/terminus-altair",
+  "scripts": {
+    "build": "webpack --progress --color",
+    "watch": "webpack --progress --color --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "vsailev",
+    "email": "vsailev@outlook.com",
+    "url": "https://github.com/vsailev"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "4.0.1",
+    "terminus-core": "*"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/forms": "^4.1.3",
+    "@types/webpack-env": "^1.13.0",
+    "awesome-typescript-loader": "3.1.2",
+    "bootstrap": "4.1.3",
+    "css-loader": "0.26.1",
+    "node-sass": "^4.5.0",
+    "raw-loader": "0.5.1",
+    "rxjs": "^5.4.0",
+    "sass-loader": "^6.0.3",
+    "terminus-core": "1.0.0-alpha.49",
+    "to-string-loader": "^1.1.5",
+    "typescript": "~2.1.0",
+    "webpack": "2.3.3"
+  }
+}
