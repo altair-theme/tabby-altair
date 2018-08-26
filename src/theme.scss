@@ -1,7 +1,7 @@
 $window-border: #211f30;
 $body-bg: #22242d;
 $body-bg2: #0d0e11;
-$body-bg3: #111;
+$body-bg3: #363740;
 
 
 $button-hover-bg: rgba(255, 255, 255, .05);
@@ -88,6 +88,26 @@ $alert-danger-border: $red;
 
 @import '~bootstrap/scss/bootstrap.scss';
 
+@keyframes top-activity {
+    from, to {    
+        border-top: 1px solid transparent;
+    }    
+    50% {
+        border-top: 1px solid $yellow;
+        color: $yellow;
+    }
+}
+
+@keyframes bottom-activity {
+    from, to {    
+        border-bottom: 1px solid transparent;
+    }    
+    50% {
+        border-bottom: 1px solid $yellow;
+        color: $yellow;
+    }
+}
+
 .nav-tabs {
     background: $btn-secondary-bg;
     .nav-link {
@@ -138,7 +158,7 @@ app-root  {
 
             &>.tabs {
                 tab-header {
-                    background: $body-bg;
+                    background: $body-bg3;
 
                     .index {
                         color: #555;
@@ -159,37 +179,40 @@ app-root  {
 
         &.tabs-on-top .tab-bar {
             margin-top: -1px;
+            height: 42px;
             border-bottom: 1px solid $window-border;
             background: $body-bg2;
 
             tab-header {
                 margin-bottom: -1px;
-                border-top: 1px solid $window-border;
 
                 &.active {
                     border-bottom: 1px solid $blue;
+                    background: $body-bg;
                 }
 
                 &.has-activity:not(.active) {
-                    border-top: 1px solid $yellow;
+                    animation: bottomactivity 2s linear infinite;
                 }
             }
         }
 
         &:not(.tabs-on-top) .tab-bar {
             margin-bottom: -1px;
+            height: 42px;
             border-top: 1px solid $window-border;
+            background: $body-bg2;
 
             tab-header {
                 margin-top: -1px;
-                border-top: 1px solid $window-border;
 
                 &.active {
-                    border-bottom: 1px solid $blue;
+                    border-top: 1px solid $blue;
+                    background: $body-bg;
                 }
 
                 &.has-activity:not(.active) {
-                    border-bottom: 1px solid $yellow;
+                    animation: topactivity 2s linear infinite;
                 }
             }
         }
