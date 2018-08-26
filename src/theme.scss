@@ -1,33 +1,35 @@
 $window-border: #211f30;
 $body-bg: #22242d;
-$body-bg2: #010101;
+$body-bg2: #0d0e11;
 $body-bg3: #111;
 
 
-$tab-border-radius: 3px;
 $button-hover-bg: rgba(255, 255, 255, .05);
 $button-active-bg: rgba(255, 255, 255, .1);
 
+// Color system
 
 $white:  #f9f9f9;
-$black:  #f3f4ef;
+$black:  #22242d;
 $red:    #ff1654;
 $orange: #fb5607;
 $yellow: #ffe66d;
 $green:  #06d6a0;
-$blue:   #4ecdc4;
+$blue:   #00abe7;
 $teal:   #7bdff2;
 $pink:   #ff60b5;
 $purple: #a01a7d;
 
 
-$body-color: #aaa;
+$body-color: $white;
 $font-family-sans-serif: "Source Sans Pro";
-$font-size-base: 14rem / 16;
+$font-size-base: 12rem / 16;
 
 $btn-secondary-color:            #ccc;
 $btn-secondary-bg:               #222;
 $btn-secondary-border:           #444;
+
+$border-radius: 0;
 
 //$btn-warning-bg:                 rgba($orange, .5);
 
@@ -105,15 +107,19 @@ ngb-tabset .tab-content {
 window-controls {
     svg {
         transition: 0.25s fill;
-        fill: #aaa;
+        fill: $white;
     }
 
-    button:hover svg {
-        fill: white;
+    .btn-minimize:hover svg{
+        fill: $yellow;
     }
 
-    .btn-close:hover svg {
-        fill: red;
+    .btn-maximize:hover svg{
+        fill: $green;
+    }
+
+    .btn-close:hover svg{
+        fill: $red;
     }
 }
 
@@ -154,21 +160,18 @@ app-root  {
         &.tabs-on-top .tab-bar {
             margin-top: -1px;
             border-bottom: 1px solid $window-border;
+            background: $body-bg2;
 
             tab-header {
                 margin-bottom: -1px;
-                border: 1px solid transparent;
-                border-bottom: 1px solid $window-border;
-                border-top-left-radius: $tab-border-radius;
-                border-top-right-radius: $tab-border-radius;
+                border-top: 1px solid $window-border;
 
                 &.active {
-                    border: 1px solid $window-border;
-                    border-bottom: 1px solid transparent;
+                    border-bottom: 1px solid $blue;
                 }
 
                 &.has-activity:not(.active) {
-                    border-top: 1px solid $green;
+                    border-top: 1px solid $yellow;
                 }
             }
         }
@@ -179,18 +182,14 @@ app-root  {
 
             tab-header {
                 margin-top: -1px;
-                border: 1px solid transparent;
                 border-top: 1px solid $window-border;
-                border-bottom-left-radius: $tab-border-radius;
-                border-bottom-right-radius: $tab-border-radius;
 
                 &.active {
-                    border: 1px solid $window-border;
-                    border-top: 1px solid transparent;
+                    border-bottom: 1px solid $blue;
                 }
 
                 &.has-activity:not(.active) {
-                    border-bottom: 1px solid $green;
+                    border-bottom: 1px solid $yellow;
                 }
             }
         }
