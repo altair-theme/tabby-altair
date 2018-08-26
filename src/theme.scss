@@ -19,42 +19,39 @@ $blue:   #00abe7;
 $teal:   #7bdff2;
 $pink:   #ff60b5;
 $purple: #a01a7d;
-
+$theme-colors: (
+  "secondary": $blue
+);
 
 $body-color: $white;
 $font-family-sans-serif: "Source Sans Pro";
 $font-size-base: 12rem / 16;
-
-$btn-secondary-color:            #ccc;
-$btn-secondary-bg:               #222;
-$btn-secondary-border:           #444;
 
 $border-radius: 0;
 
 //$btn-warning-bg:                 rgba($orange, .5);
 
 
-$nav-tabs-border-color:                       $body-bg2;
+$nav-tabs-border-color:                       $blue;
 $nav-tabs-border-width:                       1px;
 $nav-tabs-border-radius:                      0;
-$nav-tabs-link-hover-border-color:            $body-bg2;
-$nav-tabs-active-link-hover-color:            $white;
-$nav-tabs-active-link-hover-bg:               $blue;
-$nav-tabs-active-link-hover-border-color:     darken($blue, 30%);
+$nav-tabs-link-hover-border-color:            $white;
+$nav-tabs-link-active-color:                  $white;
+$nav-tabs-link-active-bg:                     $blue;
+$nav-tabs-link-active-border-color:           darken($blue, 30%);
+
 
 $input-bg:                       #111;
 $input-bg-disabled:              #333;
 
 $input-color:                    $body-color;
 //$input-border-color:             rgba($black,.15);
-//$input-box-shadow:               inset 0 1px 1px rgba($black,.075);
+$input-box-shadow:               0;
 
 $input-border-radius:            0;
-
 $input-bg-focus:                 $input-bg;
-//$input-border-focus:             lighten($brand-primary, 25%);
-//$input-box-shadow-focus:         $input-box-shadow, rgba($input-border-focus, .6);
 $input-color-focus:              $input-color;
+$input-btn-focus-box-shadow:     0;
 
 $modal-content-bg:               $body-bg;
 $modal-content-border-color:     $body-bg2;
@@ -108,13 +105,6 @@ $alert-danger-border: $red;
     }
 }
 
-.nav-tabs {
-    background: $btn-secondary-bg;
-    .nav-link {
-        transition: 0.25s all;
-        border-bottom-color: $nav-tabs-border-color;
-    }
-}
 
 ngb-tabset .tab-content {
     padding-top: 20px;
@@ -128,6 +118,10 @@ window-controls {
     svg {
         transition: 0.25s fill;
         fill: $white;
+    }
+
+    .btn:hover {
+        background-color: transparent;
     }
 
     .btn-minimize:hover svg{
@@ -238,8 +232,8 @@ settings-tab > ngb-tabset {
             font-size: 14px;
 
             &.active {
-                border-top-color: $nav-tabs-active-link-hover-border-color;
-                border-bottom-color: $nav-tabs-active-link-hover-border-color;
+                border-top-color: $nav-tabs-link-active-border-color;
+                border-bottom-color: $nav-tabs-link-active-border-color;
             }
         }
     }
@@ -249,7 +243,6 @@ multi-hotkey-input {
     .item {
         background: $body-bg3;
         border: 1px solid $blue;
-        border-radius: 3px;
         margin-right: 5px;
 
         .body {
@@ -303,10 +296,71 @@ hotkey-input-modal {
     }
 }
 
+.form-control {
+    border: 1px solid $body-bg3;
+    background-color: $body-bg3;
+    &:focus {
+        border: 1px solid #68d8ff;
+        background-color: $body-bg3;
+    }
+}
+
+input[type="range" i] {
+    width: 100%;
+    height: 1px;
+    padding-left: 0;
+    padding-bottom: 1px;
+    background-color: $white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  input[type="range" i]:focus {
+    outline: none;
+  }
+  
+  input[type="range" i]::-moz-focus-outer {
+    border: 0;
+  }
+  
+  input[type="range" i]::-webkit-slider-thumb {
+    width: 1rem;
+    height: 1rem;
+    margin-top: -0.25rem;
+    margin-bottom: -0.25rem;
+    background-color: $blue;
+    border: 0;
+    border-radius: 1rem;
+    transition: background-color 0.15s ease-in-out;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
 .form-group label {
     margin-bottom: 2px;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: none;
+}
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-sm, .btn-group-sm > .btn {
+    border-radius: 0;
+}
+
+.btn-outline-info i {
+    padding-right: 8px;
+}
+
+.input-group-addon {
+    padding: 7px;
+    background-color: $body-bg3;
+}
+
+b, strong {
+    font-weight: 500;
+    font-size: 0.8rem;
 }
