@@ -306,3 +306,7 @@ hotkey-input-modal {
 .form-group label {
     margin-bottom: 2px;
 }
+
+.btn-secondary:focus, .btn-secondary.focus {
+    box-shadow: none;
+}
