@@ -73,7 +73,8 @@ $list-group-color: $body-color;
 $list-group-bg: rgba(255,255,255,.05);
 $list-group-border-color:  rgba(255,255,255,.1);
 $list-group-hover-bg: rgba(255,255,255,.1);
-$list-group-link-active-bg: rgba(255,255,255,.2);
+$list-group-action-active-color: $white;
+$list-group-action-active-bg: $body-bg3;
 
 $pre-bg: $dropdown-bg;
 $pre-color: $dropdown-link-color;
@@ -85,7 +86,7 @@ $alert-danger-border: $red;
 
 @import '~bootstrap/scss/bootstrap.scss';
 
-@keyframes top-activity {
+@keyframes topactivity {
     from, to {    
         border-top: 1px solid transparent;
     }    
@@ -95,7 +96,7 @@ $alert-danger-border: $red;
     }
 }
 
-@keyframes bottom-activity {
+@keyframes bottomactivity {
     from, to {    
         border-bottom: 1px solid transparent;
     }    
@@ -341,6 +342,10 @@ input[type="range" i] {
     margin-bottom: 2px;
 }
 
+.list-group-item {
+    display: inline-flex !important;
+}
+
 .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: none;
 }
@@ -351,7 +356,7 @@ input[type="range" i] {
     border-radius: 0;
 }
 
-.btn-outline-info i {
+button i {
     padding-right: 8px;
 }
 

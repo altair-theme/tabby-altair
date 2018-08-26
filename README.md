@@ -4,7 +4,8 @@
 	<br>
 </h1>
 <br>
-<p align="center">  
+<p align="center">
+	<img src="https://raw.githubusercontent.com/vsailev/terminus-altair/master/assets/screenshot.png" width="800" alt="banner"><br>
 	<h6 align="center">Overview</h6>
 	<p align="center">Altair is a elegant, customizable and has vivid colors just for Terminus.</p>
 </p>
