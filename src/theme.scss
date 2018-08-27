@@ -101,7 +101,6 @@ $alert-danger-border: $red;
     }
 }
 
-
 ngb-tabset .tab-content {
     padding-top: 20px;
 }
@@ -292,6 +291,34 @@ hotkey-input-modal {
     }
 }
 
+input[type=range] {
+    @mixin thumb() {
+        height: 14px;
+        width: 14px;
+        background: $blue;
+        margin-top: -6px;
+        box-shadow: none;
+        &:hover {
+            background: darken($blue, 10%);
+        }
+        &:active {
+            background: lighten($blue, 10%);
+        }
+    }
+    &::-webkit-slider-thumb { @include thumb(); }
+    &::-moz-range-thumb  { @include thumb(); }
+    &::-ms-thumb  { @include thumb(); }
+    &::thumb { @include thumb(); }
+    @mixin track() {
+        height: 1px;
+        background: $white;
+    }
+    &::-webkit-slider-runnable-track { @include track(); }
+    &:focus::-webkit-slider-runnable-track { @include track(); }
+    &::-moz-range-track { @include track(); }
+    &::-ms-track { @include track(); }
+}
+
 .form-control {
     border: 1px solid $body-bg3;
     background-color: $body-bg3;
@@ -300,38 +327,6 @@ hotkey-input-modal {
         background-color: $body-bg3;
     }
 }
-
-input[type="range" i] {
-    width: 100%;
-    height: 1px;
-    padding-left: 0;
-    padding-bottom: 1px;
-    background-color: $white;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  
-  input[type="range" i]:focus {
-    outline: none;
-  }
-  
-  input[type="range" i]::-moz-focus-outer {
-    border: 0;
-  }
-  
-  input[type="range" i]::-webkit-slider-thumb {
-    width: 1rem;
-    height: 1rem;
-    margin-top: -0.25rem;
-    margin-bottom: -0.25rem;
-    background-color: $blue;
-    border: 0;
-    border-radius: 1rem;
-    transition: background-color 0.15s ease-in-out;
-    -webkit-appearance: none;
-    appearance: none;
-  }
 
 .form-group label {
     margin-bottom: 2px;
