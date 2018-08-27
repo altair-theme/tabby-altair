@@ -109,6 +109,13 @@ ngb-tabset .tab-content {
     background: $blue;
 }
 
+[_nghost-c7]:active {
+    background: none!important;
+}
+.active[_nghost-c7] .body[_ngcontent-c7] {
+    border: 2px solid $blue;
+}
+
 window-controls {
     svg {
         transition: 0.25s fill;
@@ -330,6 +337,10 @@ input[type=range] {
 
 .form-group label {
     margin-bottom: 2px;
+}
+
+.form-line > .form-control, .form-line > .input-group {
+    width: 53%;
 }
 
 .list-group-item {
