@@ -357,12 +357,8 @@ input[type=range] {
     border-radius: 0;
 }
 
-button i {
-    padding-right: 8px;
-}
-
-.ng-star-inserted > i {
-    padding-right: 0;
+button span {
+    padding-left: 8px;
 }
 
 .input-group-addon {
