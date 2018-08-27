@@ -1,14 +1,4 @@
-$window-border: #211f30;
-$body-bg: #22242d;
-$body-bg2: #0d0e11;
-$body-bg3: #363740;
-
-
-$button-hover-bg: rgba(255, 255, 255, .05);
-$button-active-bg: rgba(255, 255, 255, .1);
-
 // Color system
-
 $white:  #f9f9f9;
 $black:  #22242d;
 $red:    #ff1654;
@@ -23,15 +13,16 @@ $theme-colors: (
   "secondary": $blue
 );
 
+// Window
+$window-border: #211f30;
+$body-bg: #22242d;
+$body-bg2: #0d0e11;
+$body-bg3: #363740;
 $body-color: $white;
 $font-family-sans-serif: "Source Sans Pro";
 $font-size-base: 12rem / 16;
 
-$border-radius: 0;
-
-//$btn-warning-bg:                 rgba($orange, .5);
-
-
+// Nav Tabs
 $nav-tabs-border-color:                       $blue;
 $nav-tabs-border-width:                       1px;
 $nav-tabs-border-radius:                      0;
@@ -40,19 +31,22 @@ $nav-tabs-link-active-color:                  $white;
 $nav-tabs-link-active-bg:                     $blue;
 $nav-tabs-link-active-border-color:           darken($blue, 30%);
 
+// Buttons
+$button-hover-bg: rgba(255, 255, 255, .05);
+$button-active-bg: rgba(255, 255, 255, .1);
+$border-radius: 0;
 
+// Input
 $input-bg:                       #111;
 $input-bg-disabled:              #333;
-
 $input-color:                    $body-color;
-//$input-border-color:             rgba($black,.15);
 $input-box-shadow:               0;
-
 $input-border-radius:            0;
 $input-bg-focus:                 $input-bg;
 $input-color-focus:              $input-color;
 $input-btn-focus-box-shadow:     0;
 
+// Modal
 $modal-content-bg:               $body-bg;
 $modal-content-border-color:     $body-bg2;
 $modal-header-border-color:      $body-bg2;
@@ -60,15 +54,15 @@ $modal-footer-border-color:      $body-bg2;
 
 $popover-bg:                     $body-bg2;
 
+// Dropdown
 $dropdown-bg:                    $body-bg2;
 $dropdown-link-color:            $body-color;
 $dropdown-link-hover-color:      #333;
 $dropdown-link-hover-bg:         $body-bg3;
-//$dropdown-link-active-color:     $component-active-color;
-//$dropdown-link-active-bg:        $component-active-bg;
 $dropdown-link-disabled-color:   #333;
 $dropdown-header-color:          #333;
 
+// List Group
 $list-group-color: $body-color;
 $list-group-bg: rgba(255,255,255,.05);
 $list-group-border-color:  rgba(255,255,255,.1);
@@ -79,6 +73,7 @@ $list-group-action-active-bg: $body-bg3;
 $pre-bg: $dropdown-bg;
 $pre-color: $dropdown-link-color;
 
+// Alerts
 $alert-danger-bg: $body-bg2;
 $alert-danger-text: $red;
 $alert-danger-border: $red;
