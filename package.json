@@ -3,7 +3,11 @@
   "version": "0.2.0",
   "description": "Altair is a elegant, customizable and has vivid colors just for Terminus",
   "keywords": [
-    "terminus-plugin"
+    "terminus-plugin",
+    "terminus",
+		"altair",
+    "altair-theme"
+    "theme",
   ],
   "main": "dist/index.js",
   "repository": "vsailev/terminus-altair",
