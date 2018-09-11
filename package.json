@@ -6,8 +6,8 @@
     "terminus-plugin",
     "terminus",
 		"altair",
-    "altair-theme"
-    "theme",
+    "altair-theme",
+    "theme"
   ],
   "main": "dist/index.js",
   "repository": "vsailev/terminus-altair",
