@@ -8,7 +8,7 @@ $green:  #06d6a0;
 $blue:   #00abe7;
 $teal:   #7bdff2;
 $pink:   #ff60b5;
-$purple: #a01a7d;
+$purple: #c24bea;
 $theme-colors: (
   "secondary": $blue
 );
@@ -341,7 +341,7 @@ input[type=range] {
     border: 1px solid $body-bg3;
     background-color: $body-bg3;
     &:focus {
-        border: 1px solid #68d8ff;
+        border: 1px solid $blue;
         background-color: $body-bg3;
     }
     &:disabled, &[readonly] {
@@ -359,6 +359,21 @@ input[type=range] {
 
 .list-group-item {
     display: inline-flex !important;
+    i {
+        display: block;
+        margin: auto 0;
+        padding-right: 5%;
+    }
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: #00abe7;
+}
+
+.btn-secondary:hover {
+    background-color: $blue;
+    border-color: $blue;
 }
 
 .btn-outline-warning {
@@ -379,9 +394,9 @@ button span {
     padding-left: 8px;
 }
 
-.input-group-addon {
-    padding: 7px;
+.input-group-text {
     background-color: $body-bg3;
+    border: none;
 }
 
 b, strong {
