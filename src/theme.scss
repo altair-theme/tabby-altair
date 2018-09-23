@@ -124,6 +124,10 @@ window-controls {
 
     .btn:hover {
         background-color: transparent;
+    }    
+
+    .btn:active svg {
+        fill: white!important;
     }
 
     .btn-minimize:hover svg{

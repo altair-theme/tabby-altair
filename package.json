@@ -1,11 +1,12 @@
 {
   "name": "terminus-altair",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Altair is a elegant, customizable and has vivid colors just for Terminus",
   "keywords": [
     "terminus-plugin",
+    "color-scheme",
     "terminus",
-		"altair",
+    "altair",
     "altair-theme",
     "theme"
   ],
@@ -30,6 +31,7 @@
     "terminus-core": "*"
   },
   "devDependencies": {
+    "@angular/platform-browser": "4.0.1",
     "@angular/common": "^4.1.3",
     "@angular/core": "^4.1.3",
     "@angular/forms": "^4.1.3",
@@ -38,13 +40,15 @@
     "awesome-typescript-loader": "3.1.2",
     "bootstrap": "4.1.3",
     "css-loader": "0.26.1",
+    "ngx-toastr": "^8.7.3",
     "node-sass": "^4.5.0",
     "raw-loader": "0.5.1",
     "rxjs": "^5.4.0",
     "sass-loader": "^6.0.3",
     "terminus-core": "0.0.2",
+    "terminus-terminal": "^1.0.0-alpha.55",
     "to-string-loader": "^1.1.5",
-    "typescript": "3.0.1",
-    "webpack": "2.3.3"
+    "typescript": "^3.0.1",
+    "webpack": "^2.3.3"
   }
 }
