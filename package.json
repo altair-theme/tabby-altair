@@ -11,7 +11,10 @@
     "theme"
   ],
   "main": "dist/index.js",
-  "repository": "vsailev/terminus-altair",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/vsailev/terminus-altair.git"
+  },
   "scripts": {
     "build": "webpack --progress --color",
     "watch": "webpack --progress --color --watch",

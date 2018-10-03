@@ -1,20 +1,45 @@
 <h1 align="center">
-	<img src="https://cdn.rawgit.com/vsailev/terminus-altair/master/assets/logo.svg" width="70" alt="logo"><br>
-	Altair
-	<br>
+  <a href="https://github.com/vsailev/terminus-altair">
+    <img alt="Altair" src="https://cdn.rawgit.com/vsailev/terminus-altair/master/assets/logo.svg" width="70">
+  </a>
+  <br>Altair<br>
 </h1>
-<br>
+
+<h6 align="center">Overview</h6>
+<h4 align="center">
+  Altair is a elegant, customizable and has vivid colors just for <a href="https://github.com/Eugeny/terminus" target="_blank"><code>Terminus</code></a>.
+</h4>
+
 <p align="center">
-	<img src="https://raw.githubusercontent.com/vsailev/terminus-altair/master/assets/screenshot.png" width="800" alt="banner"><br>
-	<h6 align="center">Overview</h6>
-	<p align="center">Altair is a elegant, customizable and has vivid colors just for Terminus.</p>
+  <a href="https://www.npmjs.com/package/terminus-altair">
+    <img src="https://img.shields.io/npm/v/terminus-altair/latest.svg?style=for-the-badge"
+      alt="Lastest Version" />
+  </a>
+  <a href="https://www.npmjs.com/package/terminus-altair">
+    <img src="https://img.shields.io/npm/dt/terminus-altair.svg?style=for-the-badge"
+      alt="Downloads" />
+  </a>
 </p>
+
+<div align="center">
+  <h4>
+    <a href="#install">Install</a> |
+    <a href="#the-family">The Family</a> |
+		<a href="#contribute">Contribute</a>
+  </h4>
+</div>
+
+
+<p align="center">
+  <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/vsailev/terminus-altair/master/assets/screenshot.png" width="800">
+</p>
+
 <br>
 
 ## Install
 To install Altair on Terminus:
 
-1. Go to Plugins in Settings. 
+1. Go to Plugins in Settings.
 2. Install `terminus-altair` in the available plugins and restart.
 3. Select Altair in Theme settings.
 4. Taddaa! Enjoy.
