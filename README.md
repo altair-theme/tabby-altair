@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/vsailev/terminus-altair">
-    <img alt="Altair" src="https://cdn.rawgit.com/vsailev/terminus-altair/master/assets/logo.svg" width="70">
+  <a href="https://github.com/yxuko/terminus-altair">
+    <img alt="Altair" src="https://cdn.rawgit.com/yxuko/terminus-altair/master/assets/logo.svg" width="70">
   </a>
   <br>Altair<br>
 </h1>
@@ -31,7 +31,7 @@
 
 
 <p align="center">
-  <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/vsailev/terminus-altair/master/assets/screenshot.png" width="800">
+  <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/yxuko/terminus-altair/master/assets/screenshot.png" width="800">
 </p>
 
 <br>
@@ -48,13 +48,13 @@ To install Altair on Terminus:
 
 ## The Family
 
-- [hyper-altair](https://github.com/vsailev/hyper-altair) - Hyper version
-- [terminus-altair](https://github.com/vsailev/terminus-altair) - Terminus version
-- [vscode-altair](https://github.com/vsailev/vscode-altair) - VS Code version
+- [hyper-altair](https://github.com/yxuko/hyper-altair) - Hyper version
+- [terminus-altair](https://github.com/yxuko/terminus-altair) - Terminus version
+- [vscode-altair](https://github.com/yxuko/vscode-altair) - VS Code version
 
 ## Contribute
 
-Altair is based on Bootstrap 4, styles are located in the [theme.scss](https://github.com/vsailev/terminus-altair/blob/master/src/theme.scss) file
+Altair is based on Bootstrap 4, styles are located in the [theme.scss](https://github.com/yxuko/terminus-altair/blob/master/src/theme.scss) file
 
 Clone this repository and run:
 
@@ -72,4 +72,4 @@ Changes to the styles will be built automatically.
 
 ## License
 
-MIT © [vsailev](https://github.com/vsailev)
+MIT © [yxuko](https://github.com/yxuko)

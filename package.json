@@ -13,7 +13,7 @@
   "main": "dist/index.js",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/vsailev/terminus-altair.git"
+    "url" : "https://github.com/yxuko/terminus-altair.git"
   },
   "scripts": {
     "build": "webpack --progress --color",
@@ -24,9 +24,9 @@
     "dist"
   ],
   "author": {
-    "name": "vsailev",
-    "email": "vsailev@outlook.com",
-    "url": "https://github.com/vsailev"
+    "name": "yxuko",
+    "email": "yxuko@outlook.com",
+    "url": "https://github.com/yxuko"
   },
   "license": "MIT",
   "peerDependencies": {
