@@ -417,3 +417,7 @@ b, strong {
     font-weight: 500;
     font-size: 0.8rem;
 }
+
+.xterm-viewport::-webkit-scrollbar {
+		width: 1%;
+}
