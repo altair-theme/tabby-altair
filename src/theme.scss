@@ -82,9 +82,9 @@ $alert-danger-border: $red;
 @import '~bootstrap/scss/bootstrap.scss';
 
 @keyframes topactivity {
-    from, to {    
+    from, to {
         border-top: 1px solid transparent;
-    }    
+    }
     50% {
         border-top: 1px solid $yellow;
         color: $yellow;
@@ -92,9 +92,9 @@ $alert-danger-border: $red;
 }
 
 @keyframes bottomactivity {
-    from, to {    
+    from, to {
         border-bottom: 1px solid transparent;
-    }    
+    }
     50% {
         border-bottom: 1px solid $yellow;
         color: $yellow;
@@ -116,15 +116,15 @@ ngb-tabset .tab-content {
     border: 2px solid $blue;
 }
 
-window-controls {
-    svg {
-        transition: 0.25s fill;
-        fill: $white;
-    }
+svg {
+    transition: 0.25s fill;
+    fill: $white;
+}
 
+window-controls {
     .btn:hover {
         background-color: transparent;
-    }    
+    }
 
     .btn:active svg {
         fill: white!important;
