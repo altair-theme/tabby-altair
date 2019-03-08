@@ -408,6 +408,11 @@ button span {
     border: none;
 }
 
+.input-group-btn {
+    margin-left: -1px;
+    z-index: 1;
+}
+
 b, strong {
     font-weight: 500;
     font-size: 0.8rem;
