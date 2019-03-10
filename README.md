@@ -2,6 +2,7 @@
   <a href="https://github.com/yxuko/terminus-altair">
     <img alt="Altair" src="https://cdn.jsdelivr.net/gh/yxuko/terminus-altair@master/assets/logo.svg" width="70">
   </a>
+	<br>
   Altair
 </h1>
 
