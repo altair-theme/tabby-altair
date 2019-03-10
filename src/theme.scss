@@ -158,6 +158,34 @@ window-controls {
 	display: none;
 }
 
+.vibrant {
+	background: rgba(34, 36, 45, 0.5);
+	app-root {
+		background: rgba(34, 36, 45, 0.5);
+		}
+		tab-header {
+			background: rgba(54, 55, 64, 0.5)!important;
+		}
+		.tabs-on-top .tab-bar {
+			background: rgba(13, 14, 17, 0.5)!important;
+		}
+		tab-header.active {
+			background: rgba(34, 36, 45, 0.5)!important;
+		}
+		.content:not(.tabs-on-top) .tab-bar {
+				background: rgba(13, 14, 17, 0.5)!important;
+		}
+		tab-body {
+			background: rgba(34, 36, 45, 0.5)!important;
+		}
+		.nav {
+				background: rgba(54, 55, 64, 0.5)!important;
+		}
+		multi-hotkey-input .item {
+				background: rgba(54, 55, 64, 0.5)!important;
+		}
+}
+
 app-root {
 	background: $body-bg;
 	border: 1px solid $window-border;
