@@ -110,10 +110,13 @@ ngb-tabset .tab-content {
 	background: $blue;
 }
 
-[_nghost-c7]:active {
+[_nghost-c7]:active,
+[_nghost-c8]:active {
 	background: none !important;
 }
-.active[_nghost-c7] .body[_ngcontent-c7] {
+
+.active[_nghost-c7] .body[_ngcontent-c7],
+.active[_nghost-c8] .body[_ngcontent-c8] {
 	border: 2px solid $blue;
 }
 
