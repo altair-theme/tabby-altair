@@ -1,7 +1,8 @@
 <h1 align="center">
   <a href="https://github.com/yxuko/terminus-altair">
-    <img alt="Altair" src="https://raw.githubusercontent.com/yxuko/terminus-altair/master/assets/logo.svg?sanitize=true" width="70">
+    <img alt="Altair" src="https://raw.githubusercontent.com/yxuko/terminus-altair/master/assets/logo.svg?sanitize=true" width="130">
   </a>
+	<br>
 	<br>
   Altair
 </h1>
