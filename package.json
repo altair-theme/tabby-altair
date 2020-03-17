@@ -16,8 +16,8 @@
     "url": "https://github.com/yxuko/terminus-altair.git"
   },
   "scripts": {
-    "build": "webpack --progress --color",
-    "watch": "webpack --progress --color --watch",
+    "build": "webpack --progress --color --mode=production",
+    "watch": "webpack --progress --color --watch --mode=development",
     "prepublishOnly": "npm run build"
   },
   "files": [
@@ -30,7 +30,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@angular/core": "^7.*",
+    "@angular/core": "^8.*",
     "terminus-core": "*"
   },
   "devDependencies": {
