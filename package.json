@@ -36,10 +36,10 @@
   "devDependencies": {
     "@angular/animations": "^9.0.6",
     "@angular/common": "^7.*",
-    "@angular/core": "^7.2.16",
+    "@angular/core": "^7.*",
     "@angular/forms": "^7.*",
     "@angular/platform-browser": "^7.*",
-    "@ng-bootstrap/ng-bootstrap": "^4.2.2",
+    "@ng-bootstrap/ng-bootstrap": "^6.0.2",
     "@types/node": "^12.12.30",
     "@types/webpack-env": "^1.13.*",
     "awesome-typescript-loader": "^3.1.2",
