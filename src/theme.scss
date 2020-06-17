@@ -283,6 +283,7 @@ settings-tab > ngb-tabset {
 
 	& > .nav {
 		background: $body-bg3;
+		flex-shrink: 0;
 
 		& > .nav-item > .nav-link {
 			border-left: none;
