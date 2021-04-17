@@ -67,6 +67,7 @@ $list-group-color: $body-color;
 $list-group-bg: rgba(255, 255, 255, 0.05);
 $list-group-border-color: rgba(255, 255, 255, 0.1);
 $list-group-hover-bg: rgba(255, 255, 255, 0.1);
+$list-group-action-hover-color: $white;
 $list-group-action-active-color: $white;
 $list-group-action-active-bg: $body-bg3;
 
@@ -431,7 +432,6 @@ input[type="range"] {
 }
 
 .list-group-item {
-	display: inline-flex !important;
 	background-color: transparent;
 	i.text-success {
 		display: inline-block;
@@ -445,7 +445,7 @@ input[type="range"] {
 
 .btn-secondary {
 	background-color: transparent;
-	border-color: #00abe7;
+	border-color: $blue;
 	&:hover {
 		background-color: $blue;
 		border-color: $blue;
