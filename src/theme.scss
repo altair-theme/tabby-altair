@@ -10,7 +10,7 @@ $teal: #7bdff2;
 $pink: #ff60b5;
 $purple: #c24bea;
 $theme-colors: (
-	"secondary": $blue
+	"secondary": $blue,
 );
 
 // Window
@@ -104,7 +104,7 @@ $alert-danger-border: $red;
 }
 
 ngb-tabset .tab-content {
-	margin-right: 5px !important
+	margin-right: 5px !important;
 }
 
 [ngbradiogroup] > label.active {
@@ -173,28 +173,28 @@ window-controls {
 	background: rgba(34, 36, 45, 0.5);
 	app-root {
 		background: rgba(34, 36, 45, 0.5);
-		}
-		tab-header {
-			background: rgba(54, 55, 64, 0.5)!important;
-		}
-		.tabs-on-top .tab-bar {
-			background: rgba(13, 14, 17, 0.5)!important;
-		}
-		tab-header.active {
-			background: rgba(34, 36, 45, 0.5)!important;
-		}
-		.content:not(.tabs-on-top) .tab-bar {
-				background: rgba(13, 14, 17, 0.5)!important;
-		}
-		tab-body {
-			background: rgba(34, 36, 45, 0.5)!important;
-		}
-		.nav {
-				background: rgba(54, 55, 64, 0.5)!important;
-		}
-		multi-hotkey-input .item {
-				background: rgba(54, 55, 64, 0.5)!important;
-		}
+	}
+	tab-header {
+		background: rgba(54, 55, 64, 0.5) !important;
+	}
+	.tabs-on-top .tab-bar {
+		background: rgba(13, 14, 17, 0.5) !important;
+	}
+	tab-header.active {
+		background: rgba(34, 36, 45, 0.5) !important;
+	}
+	.content:not(.tabs-on-top) .tab-bar {
+		background: rgba(13, 14, 17, 0.5) !important;
+	}
+	tab-body {
+		background: rgba(34, 36, 45, 0.5) !important;
+	}
+	.nav {
+		background: rgba(54, 55, 64, 0.5) !important;
+	}
+	multi-hotkey-input .item {
+		background: rgba(54, 55, 64, 0.5) !important;
+	}
 }
 
 app-root {
@@ -281,7 +281,6 @@ tab-body {
 }
 
 settings-tab > ngb-tabset {
-
 	& > .nav {
 		background: $body-bg3;
 		flex-shrink: 0;
