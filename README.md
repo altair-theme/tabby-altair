@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/terminus-altair">
     <img src="https://img.shields.io/npm/v/terminus-altair/latest.svg?style=for-the-badge"
-      alt="Lastest Version" />
+      alt="Latest Version" />
   </a>
   <a href="https://www.npmjs.com/package/terminus-altair">
     <img src="https://img.shields.io/npm/dt/terminus-altair.svg?style=for-the-badge"
