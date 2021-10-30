@@ -9,7 +9,7 @@
 
 <h6 align="center">Overview</h6>
 <h4 align="center">
-  Altair is a elegant, customizable and has vivid colors just for <a href="https://github.com/Eugeny/terminus" target="_blank"><code>Terminus</code></a>.
+  Altair is a elegant, customizable and has vivid colors just for <a href="https://github.com/Eugeny/tabby" target="_blank"><code>Tabby (formerly Terminus)</code></a>.
 </h4>
 
 <p align="center">
@@ -31,7 +31,6 @@
   </h4>
 </div>
 
-
 <p align="center">
   <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/yxuko/terminus-altair/master/assets/screenshot.png" width="800">
 </p>
@@ -39,7 +38,8 @@
 <br>
 
 ## Install
-To install Altair on Terminus:
+
+To install Altair on Tabby:
 
 1. Go to Plugins in Settings.
 2. Install `terminus-altair` in the available plugins and restart.

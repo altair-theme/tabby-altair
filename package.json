@@ -1,11 +1,11 @@
 {
   "name": "terminus-altair",
   "version": "1.5.0",
-  "description": "Altair is a elegant, customizable and has vivid colors just for Terminus",
+  "description": "Altair is a elegant, customizable and has vivid colors just for Tabby (formerly Terminus)",
   "keywords": [
-    "terminus-plugin",
+    "tabby-plugin",
     "color-scheme",
-    "terminus",
+    "tabby",
     "altair",
     "altair-theme",
     "theme"
