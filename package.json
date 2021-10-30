@@ -1,6 +1,6 @@
 {
   "name": "terminus-altair",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Altair is a elegant, customizable and has vivid colors just for Tabby (formerly Terminus)",
   "keywords": [
     "tabby-plugin",
@@ -52,8 +52,8 @@
     "rxjs": "^7.4.0",
     "sass-loader": "^12.1.0",
     "tabby-core": "^1.0.150",
-    "tabby-terminal": "^1.0.150",
     "tabby-settings": "^1.0.150",
+    "tabby-terminal": "^1.0.150",
     "to-string-loader": "^1.2.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.3.5",
