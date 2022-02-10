@@ -49,7 +49,7 @@
     "css-loader": "^6.2.0",
     "electron": "^13.5.1",
     "ngx-toastr": "^14.1.4",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "raw-loader": "4.0.2",
     "rxjs": "^7.4.0",
     "sass-loader": "^12.1.0",
