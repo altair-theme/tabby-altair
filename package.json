@@ -47,7 +47,7 @@
     "@types/webpack-env": "^1.16.2",
     "bootstrap": "^4.6.1",
     "css-loader": "^6.2.0",
-    "electron": "^13.5.1",
+    "electron": "^22.3.25",
     "ngx-toastr": "^14.1.4",
     "node-sass": "^6.0.1",
     "raw-loader": "4.0.2",
