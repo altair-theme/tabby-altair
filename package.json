@@ -45,7 +45,7 @@
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "@types/node": "16.0.1",
     "@types/webpack-env": "^1.16.2",
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^5.0.0",
     "css-loader": "^6.2.0",
     "electron": "^13.5.1",
     "ngx-toastr": "^14.1.4",
