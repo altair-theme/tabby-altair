@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Color system
 $white: #f9f9f9;
 $black: #22242d;
@@ -19,8 +21,8 @@ $body-bg: #22242d;
 $body-bg2: #0d0e11;
 $body-bg3: #363740;
 $body-color: $white;
-$font-family-sans-serif: "Source Sans Pro";
-$font-size-base: 12rem / 16;
+$font-family-sans-serif: "Source Sans Pro", sans-serif;
+$font-size-base: 0.75rem;
 
 // Nav Tabs
 $nav-tabs-border-color: $blue;
@@ -29,7 +31,7 @@ $nav-tabs-border-radius: 0;
 $nav-tabs-link-hover-border-color: $white;
 $nav-tabs-link-active-color: $white;
 $nav-tabs-link-active-bg: $blue;
-$nav-tabs-link-active-border-color: darken($blue, 30%);
+$nav-tabs-link-active-border-color: color.adjust($blue, $lightness: -30%);
 
 // Buttons
 $button-hover-bg: rgba(255, 255, 255, 0.05);
@@ -79,7 +81,7 @@ $alert-danger-bg: $body-bg2;
 $alert-danger-text: $red;
 $alert-danger-border: $red;
 
-@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap";
 
 @keyframes topactivity {
 	from,

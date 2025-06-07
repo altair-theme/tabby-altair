@@ -1,8 +1,8 @@
-import { NgModule, Injectable } from "@angular/core";
-import { TerminalColorSchemeProvider } from "tabby-terminal";
-import { Theme } from "tabby-core";
+import { Injectable, NgModule } from "@angular/core";
 
 import { AltairColorScheme } from "colorScheme";
+import { TerminalColorSchemeProvider } from "tabby-terminal";
+import { Theme } from "tabby-core";
 
 @Injectable()
 class AltairTheme extends Theme {

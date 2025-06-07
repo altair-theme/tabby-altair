@@ -1,8 +1,9 @@
-import { Injectable } from "@angular/core";
 import {
-	TerminalColorSchemeProvider,
 	TerminalColorScheme,
+	TerminalColorSchemeProvider,
 } from "tabby-terminal";
+
+import { Injectable } from "@angular/core";
 
 @Injectable()
 export class AltairColorScheme extends TerminalColorSchemeProvider {
