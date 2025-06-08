@@ -7,7 +7,7 @@ $red: #ff1654;
 $orange: #fb5607;
 $yellow: #ffe66d;
 $green: #06d6a0;
-$blue: #00abe7;
+$blue: #08C2FF;
 $teal: #7bdff2;
 $pink: #ff60b5;
 $purple: #c24bea;
@@ -27,23 +27,24 @@ $font-size-base: 0.75rem;
 // Nav Tabs
 $nav-tabs-border-color: $blue;
 $nav-tabs-border-width: 1px;
-$nav-tabs-border-radius: 0;
+$nav-tabs-border-radius: 0.5rem;
 $nav-tabs-link-hover-border-color: $white;
 $nav-tabs-link-active-color: $white;
 $nav-tabs-link-active-bg: $blue;
 $nav-tabs-link-active-border-color: color.adjust($blue, $lightness: -30%);
 
 // Buttons
+$btn-color: $white;
 $button-hover-bg: rgba(255, 255, 255, 0.05);
 $button-active-bg: rgba(255, 255, 255, 0.1);
-$border-radius: 0;
+$border-radius: 0.5rem;
 
 // Input
 $input-bg: #111;
 $input-bg-disabled: #333;
 $input-color: $body-color;
 $input-box-shadow: none !important;
-$input-border-radius: 0;
+$input-border-radius: 0.5rem;
 $input-bg-focus: $input-bg;
 $input-color-focus: $input-color;
 $input-btn-focus-box-shadow: none !important;
@@ -434,6 +435,7 @@ input[type="range"] {
 
 .list-group-item {
 	background-color: transparent;
+	gap: 0.8rem;
 	i.text-success {
 		display: inline-block;
 		padding-right: 0;
@@ -447,6 +449,7 @@ input[type="range"] {
 .btn-secondary {
 	background-color: transparent;
 	border-color: $blue;
+	color: $white;
 	&:hover {
 		background-color: $blue;
 		border-color: $blue;
@@ -466,11 +469,6 @@ input[type="range"] {
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
 	box-shadow: none;
-}
-
-.btn-sm,
-.btn-group-sm > .btn {
-	border-radius: 0;
 }
 
 button span {
