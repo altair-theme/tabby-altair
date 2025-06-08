@@ -151,21 +151,23 @@ window-controls {
 	}
 }
 
-.xterm-viewport::-webkit-scrollbar {
-	width: 1.25%;
+.tab-content {
+	margin-right: 15px;
 }
 
+.xterm-viewport::-webkit-scrollbar,
 .tab-content::-webkit-scrollbar {
-	width: 6px;
+	width: .6rem;
 }
 
 .tab-content::-webkit-scrollbar-track {
-	margin: 6px 0;
+	margin: 1rem 0;
 }
 
+.xterm-viewport::-webkit-scrollbar-thumb,
 .tab-content::-webkit-scrollbar-thumb {
 	background-color: $blue;
-	border-radius: 16px;
+	border-radius: 0.5rem;
 }
 
 .tab-content::-webkit-scrollbar-button {
